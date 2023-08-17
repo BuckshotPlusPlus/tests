@@ -1,0 +1,15 @@
+view b {
+    type = "h1"
+    content = "Hello"
+}
+
+view a {
+    type = "div"
+    content = b
+}
+
+page index {
+    b.color = "green"
+    
+    body = a
+}

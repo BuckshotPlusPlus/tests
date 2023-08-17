@@ -1,0 +1,10 @@
+view a {
+    type = "body"
+    content = "a"
+}
+
+page index {
+    a.color = "green"
+    
+    body = a
+}

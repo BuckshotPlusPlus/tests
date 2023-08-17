@@ -1,0 +1,8 @@
+view a {
+    type = "body"
+    content = "a"
+}
+
+page index {
+    body = a
+}
