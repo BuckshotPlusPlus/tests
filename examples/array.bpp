@@ -1,0 +1,18 @@
+view a {
+    type = "h1"
+    content = "a"
+}
+
+view b {
+    type = "h1"
+    content = "b"
+}
+
+view my_div {
+    type = "div"
+    content = [a, b]
+}
+
+page index {
+    body = my_div
+}
